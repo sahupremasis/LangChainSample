@@ -12,3 +12,11 @@ pip install python-dotenv langchain-openai langchain-core
 
 pip install python-dotenv langchain-openai langchain-core langchain-community langchain-text-splitters faiss-cpu beautifulsoup4
 
+pip install pypdf
+
+pip install langchain-community docx2txt
+
+pip install docx2txt chromadb 
+
+
+pip install -U langchain-chroma
