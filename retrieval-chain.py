@@ -86,7 +86,7 @@ vectorStore = create_vector_store(docs)
 chain = create_chain(vectorStore)
 
 response = chain.invoke({
-    "input": "What is LCEL?",
+    "input": "What is LangGraph?",
 })
 
 print(response)
