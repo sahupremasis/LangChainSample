@@ -13,7 +13,7 @@ embedding model to embed those chunks later for vector storage / retrieval.
 """
 
 # 1) Load the DOCX into LangChain Document objects
-loader_docx = Docx2txtLoader("Introduction_to_Data_and_Data_Science_2.docx")
+loader_docx = Docx2txtLoader("Data_Science_Readme.docx")
 pages = loader_docx.load()
 
 # 2) Split the first document's text by Markdown-style headers (e.g., "#", "##")
@@ -42,16 +42,16 @@ len(pages_char_split)
 
 print(
     "Creating a Chroma vectorstore from `pages_char_split` by computing embeddings with `embedding`, "
-    "then persisting the resulting index/database to './intro-to-ds-lectures' for later reuse."
+    "then persisting the resulting index/database to './local-database' for later reuse."
 )
 
 vectorstore = Chroma.from_documents(
     documents=pages_char_split,
     embedding=embedding,
-    persist_directory="./intro-to-ds-lectures",
+    persist_directory="./local-database",
 )
 
 # --- Code cell 9 ---
-vectorstore_from_directory = Chroma(persist_directory = "./intro-to-ds-lectures", 
+vectorstore_from_directory = Chroma(persist_directory = "./local-database",
                                     embedding_function = embedding)
 
