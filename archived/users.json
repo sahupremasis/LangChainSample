@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "username": "john824",
+      "age": 26,
+      "registeredAt": "2025-04-01T23:39:27.773445"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@sample.com",
+      "username": "jane982",
+      "age": 20,
+      "registeredAt": "2025-11-15T23:39:27.773445"
+    },
+    {
+      "id": 3,
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "email": "alice.johnson@test.com",
+      "username": "alice908",
+      "age": 20,
+      "registeredAt": "2025-12-25T23:39:27.773445"
+    },
+    {
+      "id": 4,
+      "firstName": "Bob",
+      "lastName": "Brown",
+      "email": "bob.brown@demo.com",
+      "username": "bob220",
+      "age": 21,
+      "registeredAt": "2025-02-18T23:39:27.773445"
+    },
+    {
+      "id": 5,
+      "firstName": "Charlie",
+      "lastName": "Davis",
+      "email": "charlie.davis@trial.com",
+      "username": "charlie319",
+      "age": 22,
+      "registeredAt": "2025-03-18T23:39:27.773445"
+    }
+  ]
+}
